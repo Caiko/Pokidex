@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* Container div styling */
+.pokemon-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Pokemon card styling */
+.pokemon {
+    border-radius: 5px;
+    border: solid 1px #000;
+    padding: 0 10px;
+    min-width: 225px;
+    transition: ease 0.2s;
+}
+
+.pokemon {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* Hover over pokemon card style */
+.pokemon:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+.pokemon a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #000;
+}
+
+.pokemon a .image-and-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemon-name {
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.number {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.switch-page-buttons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.switch-page-buttons button {
+    border: transparent;
+    border-radius: 5px;
+    background-color: #87CEEB;
+    color: #fff;
+    font-family: 'Poppins' !important;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    min-width: 106px;
+    transition: ease .3s;
+}
+
+.switch-page-buttons button:hover {
+    background-color: #4682B4;
+}
+
+/* Color of card depending on the type of the pokemon */
+
+/* Ground types */
+.pokemon-ground {
+    background-color: #8B4513; 
+}
+
+/* Water types */
+.pokemon-water {
+    background-color: #62929E; 
+}
+
+/* Fire types */
+.pokemon-fire {
+    background-color: #F96E46; 
+}
+
+/* Fighting types */
+.pokemon-fighting {
+    background-color: #D84727;
+}
+
+/* Flying types */
+.pokemon-flying {
+    background-color: #87CEEB; 
+}
+
+/* Poison types */
+.pokemon-poison {
+    background-color: #9932CC; 
+}
+
+/* Electric types */
+.pokemon-electric {
+    background-color: #FFD700; 
+}
+
+/* Psychic types */
+.pokemon-psychic {
+    background-color: #FF69B4; 
+}
+
+/* Bug types */
+.pokemon-bug {
+    background-color: #D0E562; 
+}
+
+/* Rock types */
+.pokemon-rock {
+    background-color: #B22222; 
+}
+
+/* Ghost types */
+.pokemon-ghost {
+    background-color: #808080; 
+}
+
+/* Dragon types */
+.pokemon-dragon {
+    background-color: #708090; 
+}
+
+/* Dark types */
+.pokemon-dark {
+    background-color: #000000; 
+}
+
+/* Steel types */
+.pokemon-steel {
+    background-color: #4682B4; 
+}
+
+/* Fairy types */
+.pokemon-fairy {
+    background-color: #FFB6C1; 
+}
+
+/* Normal types */
+.pokemon-normal {
+    background-color: #A9A9A9;
+}
+
+/* Ice types */
+.pokemon-ice {
+    background-color: #ADD8E6; 
+}
+
+/* Grass types */
+.pokemon-grass {
+    background-color: #ACE894; 
+}
+
+/* Navigation menu styling */
+
+.header {
+    width: 100%;
+    transition: .4s ease;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--dark-gray);
+    background-color: #fff;
+    padding: 0px 20px;
+    height: 64px;
+    transition: .3s ease;
+}
+
+.links-to-pages,
+.account-section {
+    display: block;
+}
+
+.links-to-pages a {
+    color: var(--dark-gray);
+    font-family: 'Poppins' !important;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 8px 0;
+    margin: 0 15px;
+}
+
+.links-to-pages a:hover {
+    color: #000;
+}
+
+.links-to-pages .active-nav-menu-link {
+    border-bottom: 2px solid #4682B4 !important;
+    color: #000;
+}
+
+/* Styling the logo section */
+
+.landing-page-topbar-logo-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Styling the logo in the logo section */
+
+.landing-page-topbar-logo-section .logo {
+    width: 135px;
+    display: flex;
+    align-items: center;
+}
+
+.landing-page-topbar-logo-section .logo img {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    transition: 0.2s ease;
+}
+
+.landing-page-topbar-logo-section .logo img:hover {
+    background-color: var(--white);
+}
