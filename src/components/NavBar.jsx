@@ -32,10 +32,10 @@ const NavBar = ( onLinkClick ) => {
         <header className='header'>
             <div className='header-container'>
                 <div className='landing-page-topbar-logo-section'>
-                    <a className='logo' href="/Pokedex"><img src={PokemonLogo} alt="Logo" /></a>
+                    <a className='logo' href="/Pokidex"><img src={PokemonLogo} alt="Logo" /></a>
                     <div className='links-to-pages'>
-                        <a href="/Pokedex" onClick={handleLinkClick} className={currentPath === "/Pokedex/" ? "active-nav-menu-link" : ""}>Pokemons</a>
-                        <a href="/Pokedex/?/about" onClick={handleLinkClick} className={currentPath === "/Pokedex/about" ? "active-nav-menu-link" : ""}>About</a>
+                        <a href="/Pokidex" onClick={handleLinkClick} className={currentPath === "/Pokidex/" ? "active-nav-menu-link" : ""}>Pokemons</a>
+                        <a href="/Pokidex/?/about" onClick={handleLinkClick} className={currentPath === "/Pokidex/about" ? "active-nav-menu-link" : ""}>About</a>
                     </div>
                 </div>
             </div>

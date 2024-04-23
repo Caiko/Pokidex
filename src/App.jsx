@@ -7,10 +7,10 @@ import About from './pages/About';
 function App() {
  return (
     <Router>
-      <Routes basename="/Pokedex">
-        <Route path="/Pokedex" exact element={<PokemonList />} />
-        <Route path="/Pokedex/pokemon/:name" element={<PokemonDetails />} />
-        <Route path="/Pokedex/about" element={<About />} />
+      <Routes basename="/Pokidex">
+        <Route path="/Pokidex" exact element={<PokemonList />} />
+        <Route path="/Pokidex/pokemon/:name" element={<PokemonDetails />} />
+        <Route path="/Pokidex/about" element={<About />} />
       </Routes>
     </Router>
  );
